@@ -30,7 +30,9 @@ margin-top: 28px;
 font-size: 20px;
 }
 
-
+.mage {display: flex;
+flex-direction: row-reverse;
+justify-content: center;}
 
 .main-text{font-size: 16px;
 color: #FFFFFF;
@@ -123,6 +125,7 @@ padding-top: 55px;}
 .frame15 {padding: 75px;
 display: flex;
 justify-content: space-around;
+
 }
 
 .title{width: 470px;}
