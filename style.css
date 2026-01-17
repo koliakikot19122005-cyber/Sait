@@ -11,6 +11,7 @@ body {
 
 .imgandstart {
   display: flex;
+  align-items: center;
   padding-left: 135px;
   gap: 18px;
 }
@@ -23,7 +24,7 @@ body {
 .Contact {
   display: flex;
   margin-left: 597px;
-  margin-top: 28px;
+  margin-top: 8px;
 }
 
 .Contact a {
@@ -35,14 +36,14 @@ body {
 .mage {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .main-text {
   font-size: 16px;
   color: #FFFFFF;
   padding: 47px;
-  padding-left: 135px;
+  padding-right: 10px;
 }
 
 .Loremipsum {
@@ -70,7 +71,7 @@ button {
 }
 
 .button {
-  padding-top: 17px;
+  padding-top: 25px;
 }
 
 .boardwhite {
@@ -81,14 +82,16 @@ button {
 .frame {
   width: 1159px;
   margin-left: 141px;
+  padding-top: 135px;
 }
 
 .smblock {
   width: 411px;
-  padding-left: 380px;
+  margin-left: 380px;
   text-align: center;
   display: inline-block;
   line-height: 1.25;
+  box-sizing: content-box;
 }
 
 .partners {
@@ -141,6 +144,12 @@ button {
   width: 470px;
 }
 
+.TEAM {
+  color: #74C69D;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
 .frame15 p {
   font-size: 40px;
   line-height: 1.25;
@@ -162,4 +171,31 @@ button {
 
 .corosel {
   padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 70px;
+  width: 279px;
+  height: 300px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.card h3 {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.card p {
+  padding-top: 20px;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */

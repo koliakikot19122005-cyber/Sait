@@ -13,6 +13,7 @@ background-color: #74C69D;
 }
 
 .imgandstart {display: flex;
+    align-items: center;
 padding-left: 135px;
 gap: 18px;
 }
@@ -22,7 +23,7 @@ color: #FFFFFF;}
 
 .Contact {display: flex; 
 margin-left: 597px;
-margin-top: 28px;
+margin-top: 8px;
 }
 .Contact a{
     padding: 30px;
@@ -32,13 +33,12 @@ font-size: 20px;
 
 .mage {display: flex;
 flex-direction: row-reverse;
-justify-content: center;}
+justify-content:space-around;}
 
 .main-text{font-size: 16px;
 color: #FFFFFF;
 padding: 47px;
-padding-left: 135px;
-
+padding-right: 10px;
 }
 
 .Loremipsum{font-size: 40px;
@@ -62,7 +62,7 @@ color: #000000;
 border: none;
 }
 
-.button {padding-top: 17px;}
+.button {padding-top: 25px;}
  
 
 
@@ -71,15 +71,18 @@ background-color: #f3f3f3;}
 
 .frame {width: 1159px;
     margin-left: 141px ;
+    padding-top: 135px;
+    
 
 }
 
 .smblock {
 width: 411px;
-padding-left: 380px;
+margin-left: 380px;
     text-align: center;
 display: inline-block;
 line-height: 1.25;
+box-sizing: content-box;
 }
 
 .partners {color: #74C69D;
@@ -130,7 +133,9 @@ justify-content: space-around;
 
 .title{width: 470px;}
 
-
+.TEAM {color: #74C69D;
+font-size: 16px;
+margin-bottom: 16px;}
 
 .frame15 p{font-size: 40px;
 line-height: 1.25;
@@ -149,5 +154,25 @@ font-size: 40px;
 line-height: 1.25;}
 
 
-.corosel {padding-top: 45px; 
+.corosel {padding-top: 45px;
+     display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.card {margin-top: 70px;
+  width: 279px;
+  height: 300px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card {padding-left: 50px;
+padding-top: 20px;}
+
+
+.card h3{padding-top: 20px;
+font-size: 24px;}
+.card p {padding-top: 20px;
+font-size: 15px;}
