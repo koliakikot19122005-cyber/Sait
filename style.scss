@@ -67,8 +67,8 @@ border: none;
  
 
 
-.boardwhite {width: 1440px;
-background-color: #f3f3f3;}
+.boardwhite {max-width: 1440px;
+}
 
 .frame {width: 1159px;
     margin-left: 141px ;
@@ -76,6 +76,9 @@ background-color: #f3f3f3;}
     
 
 }
+
+
+
 
 .smblock {
 width: 411px;
@@ -146,6 +149,8 @@ line-height: 1.25;
 
 #smtext {font-size: 16px;
     line-height: 1.25;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 .copirate-frame15 {padding: 75px;
@@ -171,6 +176,10 @@ margin-top: 45px;
   overflow: hidden;
 }
 
+#pokemon {width: 175px; height: 175px;
+}
+
+
 .card {padding-left: 50px;
 padding-top: 20px;}
 
@@ -180,7 +189,10 @@ font-size: 24px;}
 .card p {padding-top: 20px;
 font-size: 15px;}
 
-input {width: 575px;}
+input {width: 575px;
+margin-bottom: 62px;}
+
+
 
 
 
@@ -202,6 +214,7 @@ font-family: Crimson+Text;}
 margin-top: 67px;
 font-size: 20px;
 padding-bottom: 20px;
+
 }
 
 
@@ -214,8 +227,19 @@ margin-top: 21px;
 .map {width: 1180px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     gap: 30px;
     margin-top: 60px;
     padding-bottom: 20px;
+}
+
+#maps {width: 575px;
+height: 384px;
+margin-top: 110px;}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }

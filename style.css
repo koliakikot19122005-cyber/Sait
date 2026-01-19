@@ -76,8 +76,7 @@ button {
 }
 
 .boardwhite {
-  width: 1440px;
-  background-color: #f3f3f3;
+  max-width: 1440px;
 }
 
 .frame {
@@ -160,6 +159,8 @@ button {
 #smtext {
   font-size: 16px;
   line-height: 1.25;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 
 .copirate-frame15 {
@@ -188,6 +189,11 @@ button {
   overflow: hidden;
 }
 
+#pokemon {
+  width: 175px;
+  height: 175px;
+}
+
 .card {
   padding-left: 50px;
   padding-top: 20px;
@@ -205,6 +211,7 @@ button {
 
 input {
   width: 575px;
+  margin-bottom: 62px;
 }
 
 .Foter {
@@ -245,8 +252,20 @@ input {
   width: 1180px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: center;
   gap: 30px;
   margin-top: 60px;
   padding-bottom: 20px;
+}
+
+#maps {
+  width: 575px;
+  height: 384px;
+  margin-top: 110px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }/*# sourceMappingURL=style.css.map */

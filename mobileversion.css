@@ -1,0 +1,150 @@
+@media (max-width: 355px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .imgandstart {
+    padding: 16px;
+  }
+
+  .imgandstart img{width: 45px;}
+
+  .imgandstart p {
+    font-size: 24px;
+  }
+
+  .Contact {
+    display: none; 
+  }
+
+  .mage {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mage img {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .main-text {
+    padding: 20px;
+  }
+
+  .Loremipsum {
+    font-size: 28px;
+    max-width: 100%;
+  }
+
+  .smtext {
+    font-size: 14px;
+  }
+
+  button {
+    width: 60%;
+  }
+
+ .main-text button {
+ margin-right: 100px;
+}
+
+.frame15 button{margin-right: 100px;}
+
+  .boardwhite {
+    width: 100%;
+  }
+
+  .frame {
+    width: 100%;
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .smblock {
+    width: 100%;
+    margin: 0;
+    padding: 0 2px;
+  }
+
+  .LoremIpsum {
+    font-size: 28px;
+  }
+
+  .smolltext {
+    font-size: 16px;
+  }
+
+  .sotialimage {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  
+  .frame15,
+  .copirate-frame15 {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .frame15 img,
+  .copirate-frame15 img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+ 
+  .corosel {
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .Foter {
+    width: 100%;
+  }
+
+  .map {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  #maps {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .login-form {
+    margin: 0;
+    width: 100%;
+  }
+
+  input,
+  .submit {
+    width: 100%;
+  }
+
+
+  
+}
